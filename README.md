@@ -1,7 +1,4 @@
-# Generación-de-moldes-de-Ropa-Personalizada-con-IA
-
 # Propuesta para el Proyecto Final: "Generación de Moldes de Ropa personalizados con IA"
-
 
 #### Comisión: 71950   
 
@@ -9,57 +6,34 @@
 
 ## Versión: 1.0
 
+## Definición del Problema:
+Actualmente, la creación de moldes de ropa requiere conocimientos técnicos específicos, lo cual puede limitar la creatividad y la eficiencia en el diseño. Los diseñadores y modistas enfrentan desafíos para personalizar moldes rápidamente según tendencias de moda, medidas corporales específicas y estilos particulares.
 
-## Descripción del Proyecto
+Problema: ¿Cómo optimizar el proceso de creación de moldes de ropa para mujer y hombre utilizando la IA, facilitando el trabajo de diseñadores y costureros sin perder precisión ni creatividad?
 
-Esta es una página web ficticia de consultoría en análisis de datos, diseñada para ofrecer servicios especializados en este campo. Los usuarios pueden navegar por los diferentes menús disponibles, algunos de los cuales no requieren autenticación, mientras que otros están protegidos mediante un sistema de autenticación. La plataforma permite a los usuarios registrarse, iniciar sesión y gestionar sus cuentas de manera segura. El acceso a ciertas secciones y funcionalidades está restringido y requiere autenticación previa.
+## Propuesta de la solución:
+Usar prompt engineering para generar instrucciones detalladas que permitan crear moldes personalizados en base a medidas, estilos, o tendencias específicas. Esto podría aplicarse tanto en texto (indicaciones paso a paso) como en imágenes (bocetos de moldes).
 
-Para navegar por todas las secciones de la página, el usuario debe iniciar sesión o registrarse en caso de no tener una cuenta. Una vez autenticado, será redirigido a la página principal.
+## Desarrollo de la Propuesta de Solución:
+Proponemos utilizar el Prompt Engineering para generar moldes de ropa de manera automatizada y personalizada. 
 
-Los usuarios pueden realizar las siguientes acciones:
+1. Se utilizarán dos modelos de IA:
+•	Generación de Texto (ChatGPT): Para crear instrucciones detalladas para la confección de moldes, considerando medidas, tipos de tela y estilos.
+•	Generación de Imágenes (DALL·E): Para producir bocetos de moldes listos para ser impresos y utilizados como patrones en la confección.
 
-- Registrarse en la plataforma proporcionando datos básicos.
-- Iniciar sesión con sus credenciales.
-- Recuperar la contraseña en caso de olvido.
-- Cerrar sesión de manera segura.
-- Actualizar la información de su perfil, como nombre, correo electrónico, etc.
-- Publicar un tema relacionado a los datos.
-- Interactuar entre usuarios registrados.
-- contactarse con la empresa para adquirir sus servicios
-- Registrarse como desarrollador, cliente y los diferentes proyectos
+Aplicaciones:
+•	Diseño de moldes personalizados basados en medidas específicas.
+•	Creación de patrones de ropa según tendencias actuales.
+•	Propuestas de modificaciones en moldes existentes.
 
-Nota: 
-- El acceso a funcionalidades específicas de la plataforma solo está permitido a usuarios autenticados.
-- Algunas acciones administrativas o críticas (como la edición de ciertos datos) pueden estar restringidas a usuarios con permisos especiales.
+## Justificación de la Viabilidad del Proyecto
+•	Factibilidad: Las herramientas de IA como ChatGPT y DALL·E están disponibles y permiten generar contenido de alta calidad sin necesidad de software especializado en diseño.
+•	Ahorro de Tiempo: Automatiza tareas repetitivas, lo que permite a los diseñadores enfocarse en la creatividad.
+•	Personalización: Facilita la creación de moldes únicos adaptados a medidas específicas.
+•	Accesibilidad: Puede ser utilizado por diseñadores profesionales y aficionados, democratizando el acceso al diseño de moda.
 
-## Tecnología Utilizada
-
-##### Front-End
-
-- HTML 5
-- CSS3, Grid, Flexbox
-- Javascript (ES6) 
-- Bootstrap versión. 4 y 5
-
-##### Back-End
-
-- Python 3.12.4
-- Django 5.1.4
-
-## Pruebas Realizadas:
-
-Se realizaron pruebas para garantizar el correcto funcionamiento de las funcionalidades principales, que se encuentra en el siguiente archivo excel:
-
-Enalce: https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fluida-M%2FProyecto_Final-Medina_Tenorio%2Frefs%2Fheads%2Fmain%2FCasos%2520de%2520prueba.xlsx&wdOrigin=BROWSELINK
-
-## Video Demostración:
-
-https://youtu.be/_dsWrwn0nlg
-
-
-
-Repositorio Github:
+Google Colab:
    ```bash
-   Url: https://github.com/luida-M/Proyecto_Final-Medina_Tenorio.git
+   Url: https://colab.research.google.com/drive/1MNZhzhxaGm3NkY88CZFA-4UEgroVoFYp?usp=sharing
 
 
