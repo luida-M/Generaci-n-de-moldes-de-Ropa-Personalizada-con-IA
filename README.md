@@ -25,7 +25,7 @@ Se propone automatizar la generación de moldes y patrones utilizando inteligenc
 
 ## 2. Metodología
 ### Procedimientos
- ###1. Cálculo de Medidas:
+ ### 1. Cálculo de Medidas:
 
 * Se implementan funciones que calculan medidas básicas para cada prenda y talla (por ejemplo, para camisa, pantalón y vestido).
 * Se ofrece la opción de ingresar medidas personalizadas para adaptar el diseño a las necesidades del usuario.
@@ -38,7 +38,7 @@ Se propone automatizar la generación de moldes y patrones utilizando inteligenc
 
 * Se crean funciones que generan prompts para obtener imágenes de las distintas partes de la prenda (frente, espalda, manga, cuello, etc.), incorporando las medidas relevantes.
 
-#### 4. Prompts e Instrucciones para Uso Manual:
+### 4. Prompts e Instrucciones para Uso Manual:
 * Se desarrollan prompts optimizados y se ofrecen instrucciones detalladas para que el usuario pueda utilizar manualmente plataformas como NightCafe o Leonardo.ai en caso de optar por no usar la API de OpenAI.
   
 #### 5. Interacción con el Usuario:
