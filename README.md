@@ -25,29 +25,29 @@ Se propone automatizar la generación de moldes y patrones utilizando inteligenc
 
 ## 2. Metodología
 ### Procedimientos
- ### 1. Cálculo de Medidas:
+### 1. Cálculo de Medidas:
 
 * Se implementan funciones que calculan medidas básicas para cada prenda y talla (por ejemplo, para camisa, pantalón y vestido).
 * Se ofrece la opción de ingresar medidas personalizadas para adaptar el diseño a las necesidades del usuario.
   
- ### 2. Generación Automatizada de Imágenes:
+### 2. Generación Automatizada de Imágenes:
 * Se utiliza la API de OpenAI para generar imágenes a partir de prompts diseñados específicamente para mostrar la prenda completa o sus piezas por separado.
 * Las imágenes generadas se descargan, muestran al usuario y se guardan en Google Drive.
 
-  ### 3. Generación de Patrones Detallados:
+### 3. Generación de Patrones Detallados:
 
 * Se crean funciones que generan prompts para obtener imágenes de las distintas partes de la prenda (frente, espalda, manga, cuello, etc.), incorporando las medidas relevantes.
 
 ### 4. Prompts e Instrucciones para Uso Manual:
 * Se desarrollan prompts optimizados y se ofrecen instrucciones detalladas para que el usuario pueda utilizar manualmente plataformas como NightCafe o Leonardo.ai en caso de optar por no usar la API de OpenAI.
   
-#### 5. Interacción con el Usuario:
+### 5. Interacción con el Usuario:
 * Se implementa una función principal que solicita al usuario el tipo de prenda, la talla y, opcionalmente, medidas personalizadas. Con estos datos se genera la imagen completa y los patrones de las piezas por separado.
 
 ## Justificación:
 Este enfoque permite automatizar y simplificar el proceso de creación de moldes, haciendo posible la personalización y agilizando el diseño de prendas. La integración de IA y prompt engineering mejora la precisión de los patrones y abre la puerta a nuevas formas de diseño accesibles para usuarios sin conocimientos técnicos avanzados.
 
-## 3. Herramientas y Tecnologías
+### 3. Herramientas y Tecnologías
 * Lenguaje de Programación: Python
 * API de OpenAI (DALL·E): Utilizada para la generación automatizada de imágenes de moldes y patrones.
 * Plataformas Alternativas:
@@ -56,7 +56,7 @@ Este enfoque permite automatizar y simplificar el proceso de creación de moldes
   * Desarrollo de prompts detallados que incluyen descripciones precisas, medidas, y términos técnicos (por ejemplo, "dibujo técnico, estilo vectorial, monocromo") para mejorar la calidad y precisión de las imágenes.
 * Almacenamiento: Google Drive, para guardar las imágenes generadas.
 
-4. Implementación
+### 4. Implementación
 El código desarrollado integra las siguientes funcionalidades:
 
 * Cálculo de Medidas: Funciones que devuelven medidas predeterminadas para cada tipo de prenda y talla, además de permitir la entrada de medidas personalizadas según la preferencia del usuario.
