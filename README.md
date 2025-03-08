@@ -1,43 +1,57 @@
-# Propuesta para el Proyecto Final: "Generación de Moldes de Ropa personalizados con IA"
+# Trabajo Fina: "Generación de Moldes de Ropa personalizados con IA"
 
 #### Comisión: 71950   
 
 #### Alumno: Luida Medina
 
-## Versión: 1.0
+### Versión: 2.0
 
 ## Definición del Problema:
-Actualmente, la creación de moldes de ropa requiere conocimientos técnicos específicos, lo cual puede limitar la creatividad y la eficiencia en el diseño. Los diseñadores y modistas enfrentan desafíos para personalizar moldes rápidamente según tendencias de moda, medidas corporales específicas y estilos particulares.
+Generación_de_Molde_Personalizada_con_IA
+### 1. Problemática
+#### Contexto
+En la industria textil, la creación de moldes de ropa personalizada es un proceso que consume tiempo y requiere conocimientos técnicos avanzados. Actualmente, muchas personas sin acceso a software especializado o habilidades en patronaje digital encuentran dificultades para generar moldes de manera eficiente.
 
-Problema: ¿Cómo optimizar el proceso de creación de moldes de ropa para mujer y hombre utilizando la IA, facilitando el trabajo de diseñadores y costureros sin perder precisión ni creatividad?
+Problema
+El diseño de moldes de ropa personalizados de manera manual es un proceso complejo que implica conocimientos técnicos en patronaje y herramientas de diseño vectorial. La falta de acceso a software especializado limita la creación de diseños personalizados.
 
-## Propuesta de la solución:
-Usar prompt engineering para generar instrucciones detalladas que permitan crear moldes personalizados en base a medidas, estilos, o tendencias específicas. Esto podría aplicarse tanto en texto (indicaciones paso a paso) como en imágenes (bocetos de moldes).
+Solución
+Se propone el uso de inteligencia artificial generativa para diseñar moldes de ropa a partir de descripciones en lenguaje natural. Mediante la generación de prompts optimizados y el uso de herramientas de IA, se podrá crear una base de patrones digitales lista para ser utilizada en la industria textil.
 
-## Desarrollo de la Propuesta de Solución:
-Proponemos utilizar el Prompt Engineering para generar moldes de ropa de manera automatizada y personalizada. 
+2. Metodología
+Procedimientos
+Investigación de herramientas gratuitas para generación de imágenes, priorizando aquellas que permitan obtener resultados detallados y en formato útil para el patronaje (ej. Nightcafe, Leonardo.Ai, Deep Dream Generator).
 
-Utilizarán dos modelos de IA:
-•	Generación de Texto (ChatGPT): Para crear instrucciones detalladas para la confección de moldes, considerando medidas, tipos de tela y estilos.
+Desarrollo de prompts optimizados, experimentando con descripciones detalladas, términos técnicos y estilos de representación.
 
-•	Generación de Imágenes (DALL·E): Para producir bocetos de moldes listos para ser impresos y utilizados como patrones en la confección.
+Generación de imágenes de moldes utilizando los prompts mejorados.
 
-Aplicaciones:
-•	Diseño de moldes personalizados basados en medidas específicas.
-•	Creación de patrones de ropa según tendencias actuales.
-•	Propuestas de modificaciones en moldes existentes.
+Evaluación de los resultados, comparando la precisión y usabilidad de los patrones generados frente a moldes tradicionales.
 
-## Justificación de la Viabilidad del Proyecto
-•	Factibilidad: Las herramientas de IA como ChatGPT y DALL·E están disponibles y permiten generar contenido de alta calidad sin necesidad de software especializado en diseño.
+Justificación:
+Este enfoque permite automatizar el proceso de diseño de moldes, facilitando la creación de prendas personalizadas de manera accesible y eficiente.
 
-•	Ahorro de Tiempo: Automatiza tareas repetitivas, lo que permite a los diseñadores enfocarse en la creatividad.
+3. Herramientas y Tecnologías
+Técnicas de Fast Prompting
+Para mejorar la calidad de las imágenes generadas, se utilizarán estrategias como:
 
-•	Personalización: Facilita la creación de moldes únicos adaptados a medidas específicas.
+Descripciones detalladas: Definir el tipo de prenda, dimensiones, perspectiva y estilo del molde.
+Uso de términos específicos: Palabras clave como "vectorial", "técnico", "blueprint", "sewing pattern", "flat lay".
+Iteración: Refinar los prompts para mejorar la precisión de los resultados.
+Herramientas Utilizadas
+Nightcafe o Leonardo.Ai: Para la generación de imágenes.
+GPT-4: Para mejorar la optimización de prompts.
+Justificación:
+Estas herramientas permiten obtener imágenes precisas y ajustadas a las necesidades del diseño de moldes de ropa.
 
-•	Accesibilidad: Puede ser utilizado por diseñadores profesionales y aficionados, democratizando el acceso al diseño de moda.
+4. Implementación
+Se utilizará la herramienta Nightcafe para generar moldes de prendas. A continuación, se presenta un ejemplo de prompt optimizado:
 
+Prompt:
+"Technical sewing pattern for a women's dress, front and back view, detailed measurements, vector-style blueprint, professional layout, high resolution, top-down perspective."
+
+Logo de Colab Accede a mi proyecto en Colab
 Google Colab:
    ```bash
-   Url: https://colab.research.google.com/drive/1MNZhzhxaGm3NkY88CZFA-4UEgroVoFYp?usp=sharing
-
+/content/drive/MyDrive/Trabajo_Final+Luida_Medina.ipynb
 
