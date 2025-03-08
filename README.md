@@ -72,7 +72,7 @@ El código desarrollado integra las siguientes funcionalidades:
 
 * Interfaz de Usuario: La función principal solicita al usuario que elija el tipo de prenda, talla y la opción de usar medidas personalizadas, para luego coordinar la generación de la imagen completa y de cada patrón individual.
 
-* Google Colab:
+## Google Colab:
 
    ```bash
 https://colab.research.google.com/drive/1MNZhzhxaGm3NkY88CZFA-4UEgroVoFYp?usp=sharing
