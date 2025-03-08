@@ -53,5 +53,5 @@ Se utilizará la herramienta Nightcafe para generar moldes de prendas. A continu
 Logo de Colab Accede a mi proyecto en Colab
 Google Colab:
    ```bash
-/content/drive/MyDrive/Trabajo_Final+Luida_Medina.ipynb
+https://colab.research.google.com/drive/1MNZhzhxaGm3NkY88CZFA-4UEgroVoFYp?usp=sharing
 
