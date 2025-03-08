@@ -10,7 +10,7 @@
 Generación_de_Molde_Personalizada_con_IA
 
 ## 1. Problemática
-#### Contexto
+### Contexto
 En la industria textil, la creación de moldes y patrones para prendas personalizadas es un proceso complejo que requiere conocimientos técnicos y herramientas especializadas. Muchos usuarios que no disponen de software específico o experiencia en patronaje digital encuentran dificultades para generar diseños precisos y adaptados a sus necesidades.
 
 ### Problema
@@ -25,18 +25,18 @@ Se propone automatizar la generación de moldes y patrones utilizando inteligenc
 
 ## 2. Metodología
 ### Procedimientos
-####1. Cálculo de Medidas:
+ ###1. Cálculo de Medidas:
 
 * Se implementan funciones que calculan medidas básicas para cada prenda y talla (por ejemplo, para camisa, pantalón y vestido).
 * Se ofrece la opción de ingresar medidas personalizadas para adaptar el diseño a las necesidades del usuario.
   
-#### 2. Generación Automatizada de Imágenes:
+ ### 2. Generación Automatizada de Imágenes:
 * Se utiliza la API de OpenAI para generar imágenes a partir de prompts diseñados específicamente para mostrar la prenda completa o sus piezas por separado.
 * Las imágenes generadas se descargan, muestran al usuario y se guardan en Google Drive.
-  
-##### 3. Generación de Patrones Detallados:
 
-*Se crean funciones que generan prompts para obtener imágenes de las distintas partes de la prenda (frente, espalda, manga, cuello, etc.), incorporando las medidas relevantes.
+  ### 3. Generación de Patrones Detallados:
+
+* Se crean funciones que generan prompts para obtener imágenes de las distintas partes de la prenda (frente, espalda, manga, cuello, etc.), incorporando las medidas relevantes.
 
 #### 4. Prompts e Instrucciones para Uso Manual:
 * Se desarrollan prompts optimizados y se ofrecen instrucciones detalladas para que el usuario pueda utilizar manualmente plataformas como NightCafe o Leonardo.ai en caso de optar por no usar la API de OpenAI.
@@ -51,9 +51,9 @@ Este enfoque permite automatizar y simplificar el proceso de creación de moldes
 * Lenguaje de Programación: Python
 * API de OpenAI (DALL·E): Utilizada para la generación automatizada de imágenes de moldes y patrones.
 * Plataformas Alternativas:
-** NightCafe y Leonardo.ai: Se ofrecen instrucciones y prompts para generar imágenes manualmente en estas plataformas.
+  * NightCafe y Leonardo.ai: Se ofrecen instrucciones y prompts para generar imágenes manualmente en estas plataformas.
 * Técnicas de Prompt Engineering:
-** Desarrollo de prompts detallados que incluyen descripciones precisas, medidas, y términos técnicos (por ejemplo, "dibujo técnico, estilo vectorial, monocromo") para mejorar la calidad y precisión de las imágenes.
+  * Desarrollo de prompts detallados que incluyen descripciones precisas, medidas, y términos técnicos (por ejemplo, "dibujo técnico, estilo vectorial, monocromo") para mejorar la calidad y precisión de las imágenes.
 * Almacenamiento: Google Drive, para guardar las imágenes generadas.
 
 4. Implementación
@@ -63,10 +63,10 @@ El código desarrollado integra las siguientes funcionalidades:
 
 * Generación de Imágenes con API: Funciones que utilizan la API de OpenAI para generar imágenes de la prenda completa y de sus componentes. El proceso incluye:
 
-** Creación del prompt adecuado.
-** Solicitud de imagen a la API.
-** Descarga, visualización y guardado de la imagen en Google Drive.
-* Generación de Patrones Separados: Se generan imágenes individuales para cada parte de la prenda (como frente, espalda, manga y cuello en el caso de una camisa; o delantero, trasero y pierna en pantalón) mediante prompts específicos que incluyen las medidas correspondientes.
+  * Creación del prompt adecuado.
+  * Solicitud de imagen a la API.
+  * Descarga, visualización y guardado de la imagen en Google Drive.
+  * Generación de Patrones Separados: Se generan imágenes individuales para cada parte de la prenda (como frente, espalda, manga y cuello en el caso de una camisa; o delantero, trasero y pierna en pantalón) mediante prompts específicos que incluyen las medidas correspondientes.
 
 * Generación de Prompts Alternativos e Instrucciones Manuales: Funciones adicionales que generan prompts optimizados e incluyen instrucciones para usar NightCafe o Leonardo.ai de forma manual, permitiendo al usuario tener una opción alternativa a la generación automatizada mediante OpenAI.
 
