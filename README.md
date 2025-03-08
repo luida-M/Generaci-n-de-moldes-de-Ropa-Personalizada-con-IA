@@ -47,7 +47,7 @@ Se propone automatizar la generación de moldes y patrones utilizando inteligenc
 ## Justificación:
 Este enfoque permite automatizar y simplificar el proceso de creación de moldes, haciendo posible la personalización y agilizando el diseño de prendas. La integración de IA y prompt engineering mejora la precisión de los patrones y abre la puerta a nuevas formas de diseño accesibles para usuarios sin conocimientos técnicos avanzados.
 
-### 3. Herramientas y Tecnologías
+## 3. Herramientas y Tecnologías
 * Lenguaje de Programación: Python
 * API de OpenAI (DALL·E): Utilizada para la generación automatizada de imágenes de moldes y patrones.
 * Plataformas Alternativas:
@@ -56,7 +56,7 @@ Este enfoque permite automatizar y simplificar el proceso de creación de moldes
   * Desarrollo de prompts detallados que incluyen descripciones precisas, medidas, y términos técnicos (por ejemplo, "dibujo técnico, estilo vectorial, monocromo") para mejorar la calidad y precisión de las imágenes.
 * Almacenamiento: Google Drive, para guardar las imágenes generadas.
 
-### 4. Implementación
+## 4. Implementación
 El código desarrollado integra las siguientes funcionalidades:
 
 * Cálculo de Medidas: Funciones que devuelven medidas predeterminadas para cada tipo de prenda y talla, además de permitir la entrada de medidas personalizadas según la preferencia del usuario.
