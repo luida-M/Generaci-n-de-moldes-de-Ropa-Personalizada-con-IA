@@ -74,6 +74,7 @@ El código desarrollado integra las siguientes funcionalidades:
 
 
 ** Google Colab:
+
    ```bash
 https://colab.research.google.com/drive/1MNZhzhxaGm3NkY88CZFA-4UEgroVoFYp?usp=sharing
 
